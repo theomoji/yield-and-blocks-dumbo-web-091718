@@ -3,6 +3,7 @@ def hello_t
   yield
   puts "now we're back in the method"
 end
+end
 
 
 hello_t
