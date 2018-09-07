@@ -1,8 +1,9 @@
 def hello_t
   puts "executing the code inside the method"
-  yield 
+  yield
   puts "now we're back in the method"
 end
 
-# call your method here!
 
+hello_t
+# call your method here!
